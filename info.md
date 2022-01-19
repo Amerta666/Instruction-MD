@@ -58,20 +58,34 @@
 
 > git branch
 
-Показывает текущую ветку
+Показывает все ветки и текущую.
 
 >git branch branch_name
 
-Создаём новую ветку "branch_name"
+Создаём новую ветку branch_name
 
 >git checkout branch_name
 
-Переход на ветку "branch_name"
+Переход на ветку branch_name
 >git merge branch_name
 
-Объединяем текущую ветку с веткой "branch_name"
+Объединяем текущую ветку с веткой branch_name
 
 >git brancn -d branch_name
 
-удаляет ветку "branch_name"
+удаляет ветку branch_name
 ("-d" - безопасное удаление, если ничего не повредит, "-D" - удаление в любом случае)
+
+## Ветки в гит
+
+>git branch
+
+Посмотреть все ветки
+
+>git branch branch_name
+
+Создать новую ветку branch_name
+
+>git checkout branch_name
+
+Переместиться к ветке branch_name
