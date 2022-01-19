@@ -93,3 +93,12 @@
 >git checkout branch_name
 
 Переместиться к ветке branch_name
+
+>git branch -d branch_name
+
+Удалить ветку branch_name
+
+>git branch -D branch_name
+
+Удалить ветку branch_name игнорируя ошибки
+
